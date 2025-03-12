@@ -1,0 +1,17 @@
+name: file_downloader
+description: A simple and efficient file downloader for Dart & Flutter, supporting resumable downloads.
+version: 1.0.0
+repository: https://github.com/your_username/file_downloader
+homepage: https://github.com/your_username/file_downloader
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  dio: ^5.4.0
+  path_provider: ^2.1.2
+  crypto: ^3.0.3
+  path: ^1.8.3
+
+dev_dependencies:
+  test: ^1.24.0  # 或最新版本
